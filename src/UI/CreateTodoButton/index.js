@@ -10,7 +10,7 @@ function CreateTodoButton(props){
     }
 
     return(
-        <button className="CreateTodoButton CreateTodoButtonRotate" onClick={onClickButton}>
+        <button className="CreateTodoButton CreateTodoButtonRotate" onClick={props.onClick}>
             +
         </button>
     );
