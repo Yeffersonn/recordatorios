@@ -65,7 +65,7 @@ const HomePage = () => {
             text={todo.text}
             completed={todo.completed}
             onEdit = { () => 
-              navigate(`/edit/${todo.id}`, 
+              navigate(`/edit/Todo=${todo.id}`, 
               {
                 state: {todo}
               }
